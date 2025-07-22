@@ -4,17 +4,6 @@
 
 The primary goal of this tool is to comprehensively extract every link found on web applications, with advanced filtering, source detection, and analysis capabilities.
 
-## 🎯 Use Cases
-
-- **🔍 SEO Analysis**: Find all internal/external links, analyze site structure
-- **📁 Asset Discovery**: Locate all downloadable files (PDFs, images, documents)
-- **🔒 Security Auditing**: Discover all endpoints, analyze JavaScript comments
-- **🗺️ Site Mapping**: Generate comprehensive sitemaps with link relationships
-- **📊 Content Auditing**: Analyze link distribution across different page sections
-- **🏗️ Migration Planning**: Inventory all resources before site migrations
-- **🐛 Broken Link Detection**: Find and validate all links (with `--validate`)
-- **📈 Competitive Analysis**: Analyze competitor site structure and resources
-
 ## 🚀 Quick Start
 
 ```bash
