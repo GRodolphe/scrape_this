@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scrape_this"
+version = "1.0.0"
+description = "A powerful web scraping CLI tool powered by Scrapling"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["web", "scraping", "cli", "scrapling", "typer", "automation", "data", "extraction"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "typer[all]>=0.9.0",
+    "scrapling>=0.2.0",
+    "rich>=13.0.0",
+    "pandas>=2.0.0",
+]
+
+[project.scripts]
+scrape_this = "scrape_this:app"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/scrape_this"
+Repository = "https://github.com/yourusername/scrape_this"
+Issues = "https://github.com/yourusername/scrape_this/issues"
